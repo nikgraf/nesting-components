@@ -1,0 +1,8 @@
+name: app
+description: A sample WebUI application
+dependencies:
+  packageA:
+    path: ../packageA
+  js: any
+  browser: any
+  web_ui: any

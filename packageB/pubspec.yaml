@@ -1,0 +1,4 @@
+name: packageB
+description: A sample web application
+dependencies:
+  web_ui: any

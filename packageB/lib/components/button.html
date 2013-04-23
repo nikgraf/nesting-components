@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html><body>
+  <element name="x-submit"  constructor="ButtonComponent" extends="div">
+    <template>
+      <input type="submit" class="x-button-submit" value="{{value}}">
+    </template>
+    <script type="application/dart">
+      import 'package:web_ui/web_ui.dart';
+
+      class ButtonSubmitComponent extends WebComponent {
+        String value = '';
+      }
+    </script>
+  </element>
+</body></html>
