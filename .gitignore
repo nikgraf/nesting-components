@@ -1,0 +1,8 @@
+.DS_Store
+pubspec.lock
+.project
+.buildlog
+.settings
+packages
+*/packages/
+*/web/out/
